@@ -3,18 +3,40 @@ html,body{
 }
 .setting{
 
-    background-color: red;
-    width: 100%;
+    background-color: #aaa;
+    width: 95%;
     height: 10%;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 10px;
 }
 .calendar{
-    background-color: blue;
     width: 100%;
     height: 80%;
+    margin: 20px;
 }
 .node{
     display: inline-block;
     padding: 5px;
-    margin: 5px;
     text-align: center;
+    float: left;
+    border:2px solid #eee;
+    background-color: #fff
+    color:#eee;
+    overflow: hidden;
+}
+.date{
+    float: center;
+    border-radius: 5px;
+}
+.days{
+    margin: 5px;
+    border-top: 2px solid #fff;
+}
+.day{
+    display: inline-block;
+    width: 250px;
+    text-align: center;
+    vertical-align: bottom;
+    padding-top: 30px;
 }
